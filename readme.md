@@ -1,6 +1,6 @@
 ## the structure/content of the python notebook are listed as follows:
 
-[part1](part1-feature-extraction.ipynb):
+[part1](part1_feature_extraction.ipynb):
 
 * Features from pretrained models like VGG-16, VGG-19, ResNet-50, InceptionV3 and MobileNet
 
@@ -9,19 +9,19 @@
 * finetuned MobileNet with caltech101 labeled data
 
 
-[part2](part2-similarity-search.ipynb): 
+[part2](part2_similarity_search.ipynb): 
 
 * Index feature list with Nearest Neighbor Brute Force Algorithm and visualize with PCA and t-SNE
 
 
 
-[part3](part3-similarity-search.ipynb): 
+[part3](part3_similarity_search.ipynb): 
 
 * benchmark the algorithms based on the time it takes to index images and locate the most similar image based on its features using the Caltech-101 dataset.
 
 
 
-(TODO)
+TODO:
 
 * Reduce feature dimension 
 

@@ -12,7 +12,7 @@ So, which one is the best?
 
 ![img](https://i2.wp.com/sefiks.com/wp-content/uploads/2020/06/face-models-distributions.png?ssl=1)
 
-![img](table1.png)
+![img](/notebooks/table1.png)
 
 Therefore ,the rank should be 
 

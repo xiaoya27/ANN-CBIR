@@ -1,22 +1,31 @@
 ## the structure/content of the python notebook are listed as follows:
 
+[part1](part1-feature-extraction.ipynb):
 
-Features from pretrained models like VGG-16, VGG-19, ResNet-50, InceptionV3 and MobileNet
+* Features from pretrained models like VGG-16, VGG-19, ResNet-50, InceptionV3 and MobileNet
 
-Benchmark feature extraction speed with different model 
+* Benchmark feature extraction speed with different model 
 
-finetuned MobileNet with caltech101 labeled data
+* finetuned MobileNet with caltech101 labeled data
 
-(TODO)Reduce feature dimension 
 
-Index feature list with Nearest Neighbor Brute Force Algorithm and visualize with PCA and t-SNE
+[part2](part2-similarity-search.ipynb): 
 
-Query accuracy with Euclidean L2  vs  cosine vs regular Euclidean distance
+* Index feature list with Nearest Neighbor Brute Force Algorithm and visualize with PCA and t-SNE
 
-with SOA ANN index and query
 
-The question is that how to determine the threshold value? Most resources skip this determination step. In this post, we will learn how to find the best split point for a threshold.( what to return and what not to ) 
 
+[part3](part3-similarity-search.ipynb): 
+
+* benchmark the algorithms based on the time it takes to index images and locate the most similar image based on its features using the Caltech-101 dataset.
+
+
+
+(TODO)
+
+* Reduce feature dimension 
+
+* Query accuracy with Euclidean L2  vs  cosine vs regular Euclidean distance
 
 ### Some benchmarks on different algorithms to see relative speeds
 
